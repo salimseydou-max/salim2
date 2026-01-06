@@ -1,0 +1,28 @@
+﻿Product Requirements Document
+Product Name: Smart Advice Generator
+Overview
+The Smart Advice Generator is a React-based web application that provides users with personalized advice based on selected preferences. The application is designed to deliver instant feedback through dynamic updates, allowing users to receive advice without page reloads. The primary goal of the product is to offer a simple, intuitive, and engaging experience that helps users quickly access useful guidance across multiple advice categories.
+________________
+
+
+Features
+The application displays a clear title and a short description explaining its purpose. Users are presented with multiple-choice advice categories such as study, health, motivation, life, and money. These categories are shown as selectable buttons or cards to simplify decision-making. A “Get Advice” button allows users to request advice based on their selected category. The generated advice is displayed in a dedicated section and updates dynamically each time a request is made. The system also provides user feedback when no category is selected.
+________________
+
+
+Technical Requirements
+The application is built using React to manage the user interface and application state. State management is used to track the selected advice category and the generated advice content. Conditional logic controls when advice is displayed and ensures valid user selections before generating results. The application must support dynamic rendering to update content instantly in response to user actions. All functionality is handled within the application without page refreshes.
+________________
+
+
+User Stories
+As a user, I want to select an advice category from multiple options so that I can receive advice that matches my needs.
+As a user, I want to click a button to generate advice so that the process feels quick and simple.
+As a user, I want to receive a different piece of advice each time I make a request so that the experience stays useful and engaging.
+As a user, I want to see a clear message if I try to generate advice without selecting a category so that I know what action to take.
+As a user, I want the application to work smoothly on both desktop and mobile devices so that I can access it anywhere.
+________________
+
+
+Design Specifications
+The application features a clean and modern visual design with a strong focus on usability. The layout is centered with consistent spacing to improve readability and user focus. Advice categories are visually distinct and provide clear feedback when selected. The advice display section appears as a card with rounded corners and sufficient padding to separate it from other elements. The overall color scheme is calm and friendly, supporting a positive user experience. The design is fully responsive to ensure consistent behavior and appearance across different screen sizes.
